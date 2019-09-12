@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+%
+% For alternative styles, see the biblatex manual:
+% http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf
+%
+% The 'verbose' family of styles produces full citations in footnotes, 
+% with and a variety of options for ibidem abbreviations.
+%
+\usepackage{csquotes}
+\usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+\bibliography{sample}
+
+\usepackage{lipsum} % for dummy text
+
+\title{Proof of Concept (Design)}
+
+\author{John Hundley}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{The User Story}
+
+\begin{itemize}
+
+
+\item{ 1. As a student, I want to perform a single search across multiple documents, so that I can procure a specific theme or term.}
+
+
+\item{2. As a student, I want a program to generate bibliographic details for me, so that I can ensure these details are correct and save vast amounts of time.}
+
+
+\item{3. As a student, I want to annotate my bibliography in a separate 'meta' document, so that it is stored safely, securely, and separately.}
+
+\end{itemize} 
+
+
+\section{Acceptance Criteria}
+
+\begin{itemize} 
+
+\item{1. As a student, I want to perform a single search across multiple documents by: 
+
+
+1) Uploading required sources in Voyant.
+
+
+2) Search key term in search engine.
+
+
+3) Analyse areas of correlation, word count, frequency, and distribution across the sources by using tools provided by Voyant (trends, cirrus, frequency, etc. }
+
+
+\item {2. As a student, I want a program to generate bibliographic details for me by:
+
+
+1) Downloading Zotero and Zotero Connector.
+
+
+2) Accessing source through online database.
+
+
+3) Clicking 'Save to Zotero' option embedded in Chrome toolbar.
+
+
+4) Open and check Zotero to ensure the source's bibliographic details are saved correctly.
+
+5) Select source and right-click 'create biliography from item'.
+
+6) Select desired format.}
+
+\item{As a student, I want to annotate my bibliography in a separate 'meta' document by:
+
+1) Opening Zotero. 
+
+2) Selecting source.
+
+3) Clicking 'Add notes'.
+
+4) Entering notes.}
+
+\end{itemize}
+
+\section{Themes}
+
+\end{document}
